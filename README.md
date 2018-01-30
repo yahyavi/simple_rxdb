@@ -7,3 +7,5 @@ simple test case to replicate the `winningRev is not a function` and `Database h
 npm install
 npm run build
 ```
+
+Update: using `pouchdb-adapter-idb: "6.4.1"` (strictly enforce 6.4.1) resolves the issue. It's a webpack-pouchdb problem.
